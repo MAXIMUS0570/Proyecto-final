@@ -1,0 +1,22 @@
+
+/*-----imagenes---*/
+
+.imgp {
+    max-width: 100%;
+    padding: 50px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    .imgp {
+        max-width: 90%;
+        padding: 20px;
+        height: auto;
+        
+    }
+    }

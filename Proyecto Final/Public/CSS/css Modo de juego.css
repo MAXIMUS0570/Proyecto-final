@@ -1,0 +1,19 @@
+/*-----imagenes---*/
+.imgp {
+    max-width: 50%;
+    padding: 20px;
+    height: auto;
+    display: flex;
+    flex-basis: auto;
+    justify-content: center;
+    
+}
+@media screen and (max-width: 600px) {
+
+    .imgp {
+        max-width: 90%;
+        padding: 20px;
+        height: auto;
+        
+    }
+    }

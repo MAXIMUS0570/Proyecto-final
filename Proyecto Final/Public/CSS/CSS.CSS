@@ -1,0 +1,96 @@
+
+
+/*----fondo y logo----*/
+.imagen
+    {
+    background-image: url(../Img/FONDO\ BACKGROUN.png);
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment:fixed ;
+}   
+.logo {
+    background-image: url(../Img/pen\ 2.png);
+    background-position: center;    
+    background-repeat: no-repeat;
+    padding: 150px;    
+}   
+
+/*----letras----*/
+.gris {
+    color: white;
+    text-align: left;
+    font-size: 25px;
+}
+h2 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+h1 {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+/*----divs----*/   
+.Index {
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+      
+        
+}  
+/*----navbar-----*/
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 145, 0, 0.767);
+}
+.navbar a {
+    color: azure;
+    padding: 14px 20px;
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+}
+.navbar a:hover {
+    background-color: rgba(0, 0, 0, 0.315);
+    font-size:  25PX;
+
+}
+
+/*---cuerpo----*/
+.main { 
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+/*----video----*/
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/*---Aside----*/
+.as {
+    padding: 10px;
+    border-radius: 10px;
+    background-color:  rgba(0, 0, 0, 0.658) ;
+    color: white;
+    font-size: 25px;
+}
+.as a {
+    color: red;
+    font-size: 35px;
+}
+/*-----footer-----*/
+.foot {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(241, 133, 9, 0.61);  
+    text-align: center;
+    color: white;
+}
